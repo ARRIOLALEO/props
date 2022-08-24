@@ -1,4 +1,4 @@
-import Box from './components/Box'
+import TurnLightOn from './components/TurnLightOn';
 import './App.css';
 
 function App() {
@@ -6,23 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className="container">
-          <Box
-           description="im box 1" background="red"
-           color="black"
-           textClass="boldText"
-           />
-
-          <Box 
-          description="im box 2" background="blue"
-          color="orange"
-          textClass="smallText"
-          />
-
-          <Box
-           description="im box 3"
-           background="green"
-           color="magenta"
-           />
+          <TurnLightOn/>      
         </div>
       </header>
     </div>
